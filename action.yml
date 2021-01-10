@@ -1,4 +1,4 @@
-name: 'Build AUR Package'
+name: 'Build Linux Kernel Package For Archlinux'
 description: 'Test build an AUR package in Docker container'
 branding:
   icon: user-check
