@@ -1,13 +1,10 @@
-name: 'Build Linux Kernel Package For Archlinux'
-description: 'Test build an AUR package in Docker container'
-branding:
-  icon: user-check
-  color: gray-dark
+name: 'Add Repo Package For Archlinux'
+description: 'Test add an AUR package in Docker container'
 inputs:
   repo-name:
-    description: 'AUR repository name to build'
+    description: 'repository name'
     required: true
-    default: 'qv2ray-dev-git'
+    default: '135e2'
 runs:
   using: 'docker'
   image: 'Dockerfile'
