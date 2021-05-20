@@ -1,14 +1,3 @@
-# build-aur-action
+# build-arch-action
 
-## Example usage
-```yaml
-uses: 135e2/build-aur-action@master
-with:
-  repo-name: qv2ray-dev-git
-```
-
-## Inputs
-### `repo-name`
-**Required** The name of the AUR repo to build. Default `"qv2ray-dev-git"`.
-
-# Testing for building linux kernels
+this is a essentially single use repo for [the-ashh/ash-patches](https://github.com/the-ashh/ash-patches) which builds these packages for me in github actions. as long as you replace the contents of [this script](https://github.com/the-ashh/build-arch-action/blob/master/entrypoint.sh) with your build script, it should work for whatever needs you may have! if you need an example of a working action \*.yml for this, go check out [the-ashh/ash-patches](https://github.com/the-ashh/ash-patches). ily all <3
